@@ -3,7 +3,12 @@
     flex-wrap: wrap;
 }
 
-div {
+.cell {
+    height: 70px;
+    margin: 10px;
     flex-basis: 6%;
     border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
