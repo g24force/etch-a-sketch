@@ -5,10 +5,13 @@
 
 .cell {
     height: 70px;
-    margin: 10px;
-    flex-basis: 6%;
-    border: 1px solid blue;
+/*     flex-basis: 6%; */
+/*     border: 1px solid grey; */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cell:hover {
+    background-color: aqua;
 }
