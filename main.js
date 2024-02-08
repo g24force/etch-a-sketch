@@ -10,3 +10,11 @@ while (i <= 16 * 16) {
     container.appendChild(div);
     i++;
 };
+
+const button = document.querySelector('button')
+
+let size = 0;
+
+button.addEventListener('click', () => {
+    size = window.prompt("How many lines of squares do you want on your new grid?", 10);
+});
